@@ -5,9 +5,6 @@ const totalAppointmentsElement = document.getElementById('totalAppointments');
 const totalRecordsElement = document.getElementById('totalRecords');
 const recentUsersContainer = document.getElementById('recentUsersContainer');
 const recentAppointmentsContainer = document.getElementById('recentAppointmentsContainer');
-const usersContainer = document.getElementById('usersContainer');
-const appointmentsContainer = document.getElementById('appointmentsContainer');
-const reportsContainer = document.getElementById('reportsContainer');
 
 // Load dashboard stats
 async function loadDashboardStats() {
